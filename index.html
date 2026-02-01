@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="IEB Photography - Capturing your most precious moments with elegance and artistry. Professional wedding photography services.">
+    <title>IEB Photography | Elegant Wedding Photography</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-text">IEB</span>
+                <span class="logo-sub">Photography</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link nav-cta">Book Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-subtitle animate-fade-up">Welcome to</p>
+            <h1 class="hero-title animate-fade-up delay-1">IEB Photography</h1>
+            <p class="hero-tagline animate-fade-up delay-2">Capturing Love Stories, One Frame at a Time</p>
+            <div class="hero-buttons animate-fade-up delay-3">
+                <a href="#portfolio" class="btn btn-primary">View Portfolio</a>
+                <a href="#contact" class="btn btn-outline">Book Your Date</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="image-frame">
+                        <img src="https://images.unsplash.com/photo-1537633552985-df8429e8048b?w=600&h=800&fit=crop" alt="IEB Photography - Professional Wedding Photographer">
+                    </div>
+                    <div class="experience-badge">
+                        <span class="years">10+</span>
+                        <span class="text">Years of<br>Excellence</span>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <span class="section-label">About Me</span>
+                    <h2 class="section-title">Hello, I'm Izzy</h2>
+                    <p class="about-lead">A passionate wedding photographer dedicated to preserving the magic of your special day through timeless imagery.</p>
+                    <p class="about-text">Every love story is unique, and I believe your wedding photos should reflect that individuality. My approach combines documentary-style storytelling with artistic portraiture, ensuring every stolen glance, joyful tear, and heartfelt moment is captured authentically.</p>
+                    <p class="about-text">Based in the beautiful Hudson Valley, I've had the privilege of photographing weddings across the Northeast, from intimate garden ceremonies to grand ballroom celebrations. My goal is simple: to create images that transport you back to those precious moments, time and time again.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Weddings</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">1000+</span>
+                            <span class="stat-label">Happy Couples</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Awards</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Banner -->
+    <section class="featured-banner">
+        <div class="banner-overlay"></div>
+        <div class="container">
+            <blockquote class="featured-quote">
+                <p>"The best thing to hold onto in life is each other."</p>
+                <cite>- Audrey Hepburn</cite>
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio section" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Portfolio</span>
+                <h2 class="section-title">Love Stories I've Captured</h2>
+                <p class="section-description">A glimpse into the beautiful moments I've had the honor of preserving</p>
+            </div>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="ceremony">Ceremony</button>
+                <button class="filter-btn" data-filter="portraits">Portraits</button>
+                <button class="filter-btn" data-filter="details">Details</button>
+                <button class="filter-btn" data-filter="reception">Reception</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="ceremony">
+                    <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=600&h=400&fit=crop" alt="Wedding ceremony moment">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Ceremony</span>
+                        <h3>Sarah & Michael</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item large" data-category="portraits">
+                    <img src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=800&h=600&fit=crop" alt="Romantic couple portrait">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Portraits</span>
+                        <h3>Emma & James</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="details">
+                    <img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=600&h=400&fit=crop" alt="Wedding details">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Details</span>
+                        <h3>Elegant Details</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="reception">
+                    <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&h=400&fit=crop" alt="Reception celebration">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Reception</span>
+                        <h3>First Dance Magic</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="ceremony">
+                    <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=600&h=400&fit=crop" alt="Wedding vows exchange">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Ceremony</span>
+                        <h3>The Vows</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item large" data-category="portraits">
+                    <img src="https://images.unsplash.com/photo-1591604466107-ec97de577aff?w=800&h=600&fit=crop" alt="Bride portrait">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Portraits</span>
+                        <h3>Bridal Elegance</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="details">
+                    <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600&h=400&fit=crop" alt="Wedding bouquet">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Details</span>
+                        <h3>Floral Beauty</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="reception">
+                    <img src="https://images.unsplash.com/photo-1470290378698-263fa7ca60ab?w=600&h=400&fit=crop" alt="Wedding reception venue">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Reception</span>
+                        <h3>Venue Magic</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-cta">
+                <a href="#contact" class="btn btn-primary">See Full Gallery</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Services</span>
+                <h2 class="section-title">Wedding Packages</h2>
+                <p class="section-description">Tailored photography packages to capture every precious moment of your celebration</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Intimate</h3>
+                    <p class="service-description">Perfect for elopements and micro-weddings</p>
+                    <ul class="service-features">
+                        <li>4 Hours Coverage</li>
+                        <li>1 Photographer</li>
+                        <li>200+ Edited Images</li>
+                        <li>Online Gallery</li>
+                        <li>Print Release</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Inquire</a>
+                </div>
+                <div class="service-card featured">
+                    <div class="featured-tag">Most Popular</div>
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Classic</h3>
+                    <p class="service-description">Comprehensive coverage for your special day</p>
+                    <ul class="service-features">
+                        <li>8 Hours Coverage</li>
+                        <li>2 Photographers</li>
+                        <li>500+ Edited Images</li>
+                        <li>Engagement Session</li>
+                        <li>Online Gallery</li>
+                        <li>Custom USB Drive</li>
+                        <li>Print Release</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Inquire</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Luxe</h3>
+                    <p class="service-description">The ultimate wedding photography experience</p>
+                    <ul class="service-features">
+                        <li>Full Day Coverage</li>
+                        <li>2 Photographers</li>
+                        <li>800+ Edited Images</li>
+                        <li>Engagement Session</li>
+                        <li>Bridal Session</li>
+                        <li>Premium Album</li>
+                        <li>Wall Art Credit</li>
+                        <li>Same-Day Sneak Peek</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Inquire</a>
+                </div>
+            </div>
+            <p class="services-note">Custom packages available. Let's create something perfect for your unique celebration.</p>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Testimonials</span>
+                <h2 class="section-title">Kind Words from Couples</h2>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-track" id="testimonialTrack">
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+                        </div>
+                        <p class="testimonial-text">"Izzy captured our wedding day more beautifully than we ever could have imagined. Every photo tells a story and brings us right back to those magical moments. She has an incredible eye for detail and made us feel so comfortable throughout the entire process."</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop" alt="Sarah M.">
+                            <div class="author-info">
+                                <h4>Sarah & David</h4>
+                                <span>Married October 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+                        </div>
+                        <p class="testimonial-text">"From our first meeting, Izzy made us feel at ease. She's not just a talented photographer but a genuine, caring person who goes above and beyond. Our wedding photos are absolutely stunning and we receive compliments on them constantly!"</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop" alt="Michael R.">
+                            <div class="author-info">
+                                <h4>Emily & Michael</h4>
+                                <span>Married June 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+                        </div>
+                        <p class="testimonial-text">"We are SO grateful we chose IEB Photography! Izzy has a gift for capturing genuine emotions and candid moments. Looking at our wedding album feels like reliving the happiest day of our lives. Worth every penny and more!"</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop" alt="Jennifer L.">
+                            <div class="author-info">
+                                <h4>Jennifer & Chris</h4>
+                                <span>Married August 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-nav">
+                    <button class="nav-btn prev" id="prevBtn" aria-label="Previous testimonial">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M15 19l-7-7 7-7"/>
+                        </svg>
+                    </button>
+                    <div class="testimonial-dots" id="testimonialDots"></div>
+                    <button class="nav-btn next" id="nextBtn" aria-label="Next testimonial">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 5l7 7-7 7"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="section-label">Get in Touch</span>
+                    <h2 class="section-title">Let's Create Magic Together</h2>
+                    <p class="contact-description">Ready to book your wedding photography? Have questions about my services? I'd love to hear from you! Fill out the form and I'll get back to you within 24 hours.</p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <a href="tel:8457418852">(845) 741-8852</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <a href="mailto:Izzysbphotography@yahoo.com">Izzysbphotography@yahoo.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                    <path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Location</h4>
+                                <span>Hudson Valley, New York<br>Available for Travel</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Pinterest">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.627 0-12 5.372-12 12 0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146 1.124.347 2.317.535 3.554.535 6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <h3 class="form-title">Book Your Consultation</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="weddingDate">Wedding Date *</label>
+                                <input type="date" id="weddingDate" name="weddingDate" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="venue">Venue/Location</label>
+                                <input type="text" id="venue" name="venue" placeholder="City, State">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="package">Interested Package</label>
+                            <select id="package" name="package">
+                                <option value="">Select a package</option>
+                                <option value="intimate">Intimate Package</option>
+                                <option value="classic">Classic Package</option>
+                                <option value="luxe">Luxe Package</option>
+                                <option value="custom">Custom Package</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="howHeard">How did you hear about us?</label>
+                            <select id="howHeard" name="howHeard">
+                                <option value="">Select an option</option>
+                                <option value="instagram">Instagram</option>
+                                <option value="facebook">Facebook</option>
+                                <option value="google">Google Search</option>
+                                <option value="referral">Friend/Family Referral</option>
+                                <option value="vendor">Vendor Referral</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Tell me about your wedding vision</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Share any details about your special day..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Inquiry</button>
+                        <p class="form-note">I'll respond within 24 hours to schedule your complimentary consultation.</p>
+                    </form>
+                    <div class="form-success" id="formSuccess">
+                        <div class="success-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"/>
+                                <polyline points="22 4 12 14.01 9 11.01"/>
+                            </svg>
+                        </div>
+                        <h3>Thank You!</h3>
+                        <p>Your inquiry has been received. I'm excited to learn more about your wedding and will be in touch within 24 hours!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#home" class="logo">
+                        <span class="logo-text">IEB</span>
+                        <span class="logo-sub">Photography</span>
+                    </a>
+                    <p>Capturing love stories with artistry and heart. Based in the Hudson Valley, available worldwide.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Get in Touch</h4>
+                    <p><a href="tel:8457418852">(845) 741-8852</a></p>
+                    <p><a href="mailto:Izzysbphotography@yahoo.com">Izzysbphotography@yahoo.com</a></p>
+                    <p>Hudson Valley, New York</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 IEB Photography. All rights reserved.</p>
+                <p>Crafted with love for capturing love.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
